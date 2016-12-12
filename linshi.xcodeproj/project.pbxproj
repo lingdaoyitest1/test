@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C03693B1DF4FA84001E6545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C03693A1DF4FA84001E6545 /* main.m */; };
+		5C03693E1DF4FA84001E6545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C03693D1DF4FA84001E6545 /* AppDelegate.m */; };
+		5C0369441DF4FA84001E6545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0369421DF4FA84001E6545 /* Main.storyboard */; };
+		5C0369461DF4FA84001E6545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0369451DF4FA84001E6545 /* Assets.xcassets */; };
+		5C0369491DF4FA84001E6545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0369471DF4FA84001E6545 /* LaunchScreen.storyboard */; };
+		5C0369541DF4FA84001E6545 /* linshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0369531DF4FA84001E6545 /* linshiTests.m */; };
+		5C03695F1DF4FA84001E6545 /* linshiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C03695E1DF4FA84001E6545 /* linshiUITests.m */; };
+		5C05E2591DF7DB3E00838C53 /* Child.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C05E2481DF7DB3E00838C53 /* Child.plist */; };
+		5C05E25A1DF7DB3E00838C53 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05E24A1DF7DB3E00838C53 /* NavViewController.m */; };
+		5C05E25B1DF7DB3E00838C53 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05E24C1DF7DB3E00838C53 /* RootViewController.m */; };
+		5C05E25C1DF7DB3E00838C53 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05E24F1DF7DB3E00838C53 /* CenterViewController.m */; };
+		5C05E25D1DF7DB3E00838C53 /* FavourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05E2521DF7DB3E00838C53 /* FavourViewController.m */; };
+		5C05E25E1DF7DB3E00838C53 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05E2551DF7DB3E00838C53 /* ShopViewController.m */; };
+		5C05E25F1DF7DB3E00838C53 /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05E2581DF7DB3E00838C53 /* ShoppingCartViewController.m */; };
+		5CD92D561DFA52A800387302 /* CenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD92D551DFA52A800387302 /* CenterHeadView.m */; };
+		9230E300ACFCEBA376DF3840 /* libPods-linshi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4706F38940B25BB4351C71 /* libPods-linshi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C0369501DF4FA84001E6545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C03692E1DF4FA84001E6545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C0369351DF4FA84001E6545;
+			remoteInfo = linshi;
+		};
+		5C03695B1DF4FA84001E6545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C03692E1DF4FA84001E6545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C0369351DF4FA84001E6545;
+			remoteInfo = linshi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4706F38940B25BB4351C71 /* libPods-linshi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-linshi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0369361DF4FA84001E6545 /* linshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03693A1DF4FA84001E6545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C03693C1DF4FA84001E6545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C03693D1DF4FA84001E6545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C0369431DF4FA84001E6545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C0369451DF4FA84001E6545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C0369481DF4FA84001E6545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C03694A1DF4FA84001E6545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C03694F1DF4FA84001E6545 /* linshiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linshiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0369531DF4FA84001E6545 /* linshiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linshiTests.m; sourceTree = "<group>"; };
+		5C0369551DF4FA84001E6545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C03695A1DF4FA84001E6545 /* linshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03695E1DF4FA84001E6545 /* linshiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linshiUITests.m; sourceTree = "<group>"; };
+		5C0369601DF4FA84001E6545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C05E2481DF7DB3E00838C53 /* Child.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Child.plist; sourceTree = "<group>"; };
+		5C05E2491DF7DB3E00838C53 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		5C05E24A1DF7DB3E00838C53 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		5C05E24B1DF7DB3E00838C53 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5C05E24C1DF7DB3E00838C53 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5C05E24E1DF7DB3E00838C53 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		5C05E24F1DF7DB3E00838C53 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		5C05E2511DF7DB3E00838C53 /* FavourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavourViewController.h; sourceTree = "<group>"; };
+		5C05E2521DF7DB3E00838C53 /* FavourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavourViewController.m; sourceTree = "<group>"; };
+		5C05E2541DF7DB3E00838C53 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		5C05E2551DF7DB3E00838C53 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		5C05E2571DF7DB3E00838C53 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		5C05E2581DF7DB3E00838C53 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		5CD92D541DFA52A800387302 /* CenterHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterHeadView.h; sourceTree = "<group>"; };
+		5CD92D551DFA52A800387302 /* CenterHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterHeadView.m; sourceTree = "<group>"; };
+		724B8CDE8EA6AC3400BE0F9B /* Pods-linshi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linshi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-linshi/Pods-linshi.debug.xcconfig"; sourceTree = "<group>"; };
+		EB7E79DDA245C9F545AE8A5C /* Pods-linshi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linshi.release.xcconfig"; path = "Pods/Target Support Files/Pods-linshi/Pods-linshi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C0369331DF4FA84001E6545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9230E300ACFCEBA376DF3840 /* libPods-linshi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03694C1DF4FA84001E6545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0369571DF4FA84001E6545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184515A156255BFD70D86EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E4706F38940B25BB4351C71 /* libPods-linshi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C03692D1DF4FA84001E6545 = {
+			isa = PBXGroup;
+			children = (
+				5C0369381DF4FA84001E6545 /* linshi */,
+				5C0369521DF4FA84001E6545 /* linshiTests */,
+				5C03695D1DF4FA84001E6545 /* linshiUITests */,
+				5C0369371DF4FA84001E6545 /* Products */,
+				93035628D5A13B09459E7C26 /* Pods */,
+				184515A156255BFD70D86EF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C0369371DF4FA84001E6545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C0369361DF4FA84001E6545 /* linshi.app */,
+				5C03694F1DF4FA84001E6545 /* linshiTests.xctest */,
+				5C03695A1DF4FA84001E6545 /* linshiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C0369381DF4FA84001E6545 /* linshi */ = {
+			isa = PBXGroup;
+			children = (
+				5C03693C1DF4FA84001E6545 /* AppDelegate.h */,
+				5C03693D1DF4FA84001E6545 /* AppDelegate.m */,
+				5C05E2321DF7DA3600838C53 /* Class */,
+				5CEEC77E1DFA929200B222FA /* 三方库 */,
+				5C0369421DF4FA84001E6545 /* Main.storyboard */,
+				5C0369451DF4FA84001E6545 /* Assets.xcassets */,
+				5C0369471DF4FA84001E6545 /* LaunchScreen.storyboard */,
+				5C03694A1DF4FA84001E6545 /* Info.plist */,
+				5C0369391DF4FA84001E6545 /* Supporting Files */,
+			);
+			path = linshi;
+			sourceTree = "<group>";
+		};
+		5C0369391DF4FA84001E6545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C03693A1DF4FA84001E6545 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C0369521DF4FA84001E6545 /* linshiTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C0369531DF4FA84001E6545 /* linshiTests.m */,
+				5C0369551DF4FA84001E6545 /* Info.plist */,
+			);
+			path = linshiTests;
+			sourceTree = "<group>";
+		};
+		5C03695D1DF4FA84001E6545 /* linshiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C03695E1DF4FA84001E6545 /* linshiUITests.m */,
+				5C0369601DF4FA84001E6545 /* Info.plist */,
+			);
+			path = linshiUITests;
+			sourceTree = "<group>";
+		};
+		5C05E2321DF7DA3600838C53 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5C05E2611DF7DBCB00838C53 /* Tool */,
+				5C05E2471DF7DB3E00838C53 /* Base */,
+				5C05E2531DF7DB3E00838C53 /* Shop */,
+				5C05E2501DF7DB3E00838C53 /* Favour */,
+				5C05E2561DF7DB3E00838C53 /* ShoppingCart */,
+				5C05E24D1DF7DB3E00838C53 /* Center */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5C05E2471DF7DB3E00838C53 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5C05E2491DF7DB3E00838C53 /* NavViewController.h */,
+				5C05E24A1DF7DB3E00838C53 /* NavViewController.m */,
+				5C05E24B1DF7DB3E00838C53 /* RootViewController.h */,
+				5C05E24C1DF7DB3E00838C53 /* RootViewController.m */,
+				5C05E2481DF7DB3E00838C53 /* Child.plist */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5C05E24D1DF7DB3E00838C53 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				5CD92D531DFA518F00387302 /* Model */,
+				5CD92D521DFA517E00387302 /* View */,
+				5CD92D511DFA516C00387302 /* ViewController */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		5C05E2501DF7DB3E00838C53 /* Favour */ = {
+			isa = PBXGroup;
+			children = (
+				5C05E2511DF7DB3E00838C53 /* FavourViewController.h */,
+				5C05E2521DF7DB3E00838C53 /* FavourViewController.m */,
+			);
+			path = Favour;
+			sourceTree = "<group>";
+		};
+		5C05E2531DF7DB3E00838C53 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				5C05E2541DF7DB3E00838C53 /* ShopViewController.h */,
+				5C05E2551DF7DB3E00838C53 /* ShopViewController.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		5C05E2561DF7DB3E00838C53 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				5C05E2571DF7DB3E00838C53 /* ShoppingCartViewController.h */,
+				5C05E2581DF7DB3E00838C53 /* ShoppingCartViewController.m */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		5C05E2611DF7DBCB00838C53 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		5CD92D511DFA516C00387302 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5C05E24E1DF7DB3E00838C53 /* CenterViewController.h */,
+				5C05E24F1DF7DB3E00838C53 /* CenterViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5CD92D521DFA517E00387302 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CD92D541DFA52A800387302 /* CenterHeadView.h */,
+				5CD92D551DFA52A800387302 /* CenterHeadView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5CD92D531DFA518F00387302 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CEEC77E1DFA929200B222FA /* 三方库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "三方库";
+			sourceTree = "<group>";
+		};
+		93035628D5A13B09459E7C26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				724B8CDE8EA6AC3400BE0F9B /* Pods-linshi.debug.xcconfig */,
+				EB7E79DDA245C9F545AE8A5C /* Pods-linshi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C0369351DF4FA84001E6545 /* linshi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0369631DF4FA84001E6545 /* Build configuration list for PBXNativeTarget "linshi" */;
+			buildPhases = (
+				BF620969F09B9F0ED2DE9EDA /* [CP] Check Pods Manifest.lock */,
+				5C0369321DF4FA84001E6545 /* Sources */,
+				5C0369331DF4FA84001E6545 /* Frameworks */,
+				5C0369341DF4FA84001E6545 /* Resources */,
+				5F2B31A04D8A59ADB45224F4 /* [CP] Embed Pods Frameworks */,
+				880B54A65B0CAF9524C250DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = linshi;
+			productName = linshi;
+			productReference = 5C0369361DF4FA84001E6545 /* linshi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C03694E1DF4FA84001E6545 /* linshiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0369661DF4FA84001E6545 /* Build configuration list for PBXNativeTarget "linshiTests" */;
+			buildPhases = (
+				5C03694B1DF4FA84001E6545 /* Sources */,
+				5C03694C1DF4FA84001E6545 /* Frameworks */,
+				5C03694D1DF4FA84001E6545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C0369511DF4FA84001E6545 /* PBXTargetDependency */,
+			);
+			name = linshiTests;
+			productName = linshiTests;
+			productReference = 5C03694F1DF4FA84001E6545 /* linshiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C0369591DF4FA84001E6545 /* linshiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0369691DF4FA84001E6545 /* Build configuration list for PBXNativeTarget "linshiUITests" */;
+			buildPhases = (
+				5C0369561DF4FA84001E6545 /* Sources */,
+				5C0369571DF4FA84001E6545 /* Frameworks */,
+				5C0369581DF4FA84001E6545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C03695C1DF4FA84001E6545 /* PBXTargetDependency */,
+			);
+			name = linshiUITests;
+			productName = linshiUITests;
+			productReference = 5C03695A1DF4FA84001E6545 /* linshiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C03692E1DF4FA84001E6545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = liuyan;
+				TargetAttributes = {
+					5C0369351DF4FA84001E6545 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9SRA2K3FMM;
+						ProvisioningStyle = Automatic;
+					};
+					5C03694E1DF4FA84001E6545 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C0369351DF4FA84001E6545;
+					};
+					5C0369591DF4FA84001E6545 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C0369351DF4FA84001E6545;
+					};
+				};
+			};
+			buildConfigurationList = 5C0369311DF4FA84001E6545 /* Build configuration list for PBXProject "linshi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C03692D1DF4FA84001E6545;
+			productRefGroup = 5C0369371DF4FA84001E6545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C0369351DF4FA84001E6545 /* linshi */,
+				5C03694E1DF4FA84001E6545 /* linshiTests */,
+				5C0369591DF4FA84001E6545 /* linshiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C0369341DF4FA84001E6545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0369491DF4FA84001E6545 /* LaunchScreen.storyboard in Resources */,
+				5C05E2591DF7DB3E00838C53 /* Child.plist in Resources */,
+				5C0369461DF4FA84001E6545 /* Assets.xcassets in Resources */,
+				5C0369441DF4FA84001E6545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03694D1DF4FA84001E6545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0369581DF4FA84001E6545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F2B31A04D8A59ADB45224F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-linshi/Pods-linshi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		880B54A65B0CAF9524C250DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-linshi/Pods-linshi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF620969F09B9F0ED2DE9EDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C0369321DF4FA84001E6545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C05E25F1DF7DB3E00838C53 /* ShoppingCartViewController.m in Sources */,
+				5C03693E1DF4FA84001E6545 /* AppDelegate.m in Sources */,
+				5C05E25A1DF7DB3E00838C53 /* NavViewController.m in Sources */,
+				5C05E25B1DF7DB3E00838C53 /* RootViewController.m in Sources */,
+				5C03693B1DF4FA84001E6545 /* main.m in Sources */,
+				5C05E25C1DF7DB3E00838C53 /* CenterViewController.m in Sources */,
+				5C05E25D1DF7DB3E00838C53 /* FavourViewController.m in Sources */,
+				5CD92D561DFA52A800387302 /* CenterHeadView.m in Sources */,
+				5C05E25E1DF7DB3E00838C53 /* ShopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03694B1DF4FA84001E6545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0369541DF4FA84001E6545 /* linshiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0369561DF4FA84001E6545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03695F1DF4FA84001E6545 /* linshiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C0369511DF4FA84001E6545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C0369351DF4FA84001E6545 /* linshi */;
+			targetProxy = 5C0369501DF4FA84001E6545 /* PBXContainerItemProxy */;
+		};
+		5C03695C1DF4FA84001E6545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C0369351DF4FA84001E6545 /* linshi */;
+			targetProxy = 5C03695B1DF4FA84001E6545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C0369421DF4FA84001E6545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C0369431DF4FA84001E6545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C0369471DF4FA84001E6545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C0369481DF4FA84001E6545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C0369611DF4FA84001E6545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C0369621DF4FA84001E6545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C0369641DF4FA84001E6545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724B8CDE8EA6AC3400BE0F9B /* Pods-linshi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SRA2K3FMM;
+				INFOPLIST_FILE = linshi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingdaoyi.linshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C0369651DF4FA84001E6545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7E79DDA245C9F545AE8A5C /* Pods-linshi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SRA2K3FMM;
+				INFOPLIST_FILE = linshi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingdaoyi.linshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C0369671DF4FA84001E6545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = linshiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingdaoyi.linshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linshi.app/linshi";
+			};
+			name = Debug;
+		};
+		5C0369681DF4FA84001E6545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = linshiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingdaoyi.linshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linshi.app/linshi";
+			};
+			name = Release;
+		};
+		5C03696A1DF4FA84001E6545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = linshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingdaoyi.linshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = linshi;
+			};
+			name = Debug;
+		};
+		5C03696B1DF4FA84001E6545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = linshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingdaoyi.linshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = linshi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C0369311DF4FA84001E6545 /* Build configuration list for PBXProject "linshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0369611DF4FA84001E6545 /* Debug */,
+				5C0369621DF4FA84001E6545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0369631DF4FA84001E6545 /* Build configuration list for PBXNativeTarget "linshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0369641DF4FA84001E6545 /* Debug */,
+				5C0369651DF4FA84001E6545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0369661DF4FA84001E6545 /* Build configuration list for PBXNativeTarget "linshiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0369671DF4FA84001E6545 /* Debug */,
+				5C0369681DF4FA84001E6545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0369691DF4FA84001E6545 /* Build configuration list for PBXNativeTarget "linshiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03696A1DF4FA84001E6545 /* Debug */,
+				5C03696B1DF4FA84001E6545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C03692E1DF4FA84001E6545 /* Project object */;
+}
